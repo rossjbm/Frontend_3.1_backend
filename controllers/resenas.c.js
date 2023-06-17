@@ -6,7 +6,7 @@ class resenasControllers {
             resenasModels.listar()
             .then((resultado) => { 
                 if (resultado.length == 0) { 
-                  return resolve('Por ahora no hay resenas registrados :)') 
+                  return resolve('no hay reseñas registradas') 
                 }
                 resolve (resultado) 
               })
